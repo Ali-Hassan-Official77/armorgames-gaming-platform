@@ -8,5 +8,5 @@ const sans=Manrope({subsets:["latin"],weight:["400","500","600","700","800"],var
 export const metadata={title:"ArmorGames — Enter the Next Arena",description:"ArmorGames is a premium discovery platform for free-to-play games.",icons:{icon:"/brand-mark.png"}};
 export default function RootLayout({children}){return <html lang="en" className={`${display.variable} ${sans.variable}`}><body className="noise antialiased"><div className="site-shell"><Navbar/><main>{children}</main><Footer/></div>
 
-
+<script src="https://cdn.zanderio.ai/widget/loader.js" data-id="wdg_Jcl1rfh5kRFEOugvdquEY90a" defer></script>
 </body></html>}
